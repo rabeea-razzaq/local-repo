@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>practice</title>
+    <style>
+         body{
+            background-color: rgb(27, 27, 27);
+        }
+        input{
+            margin: 20px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light navstyle">
+                        <a class="navbar-brand mx-auto text-white" href="#">Dev Manager</a>
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+                          <!-- <ul class="navbar-nav right">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                          </ul> -->
+                        <!-- </div> -->
+                </nav>
+        </header>
+        <div id="show-hide">
+         <div class="container  formsection" >
+            <div class="formcontainer " >
+                <h3 style="text-align: center;">Add Developer</h3>
+                <form action="#" id="devInfo">
+                        <div class="form-group">
+                            <label for="devName">FUL NAME</label><br>
+                            <input type="text" class="form-control" name="name" id="devName" required><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="devemail">EMAIL ADDRESS:</label><br>
+                            <input type="email"  class="form-control"name="email" id="devemail" required><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="devlang">LANGAUGE:</label><br>
+                            <input type="text"  class="form-control"name="language" id="devlang" required><br>
+                        </div>
+                            <!-- <input type="checkbox" name="language" value="Cpp">c++<br>
+                            <input type="checkbox" name="language" value="chash">C#<br>
+                            <input type="checkbox" name="language" value="javascript">JAVASCRIPT<br>
+                            <input type="checkbox" name="language" value="java"> -->
+                        <div class="form-group">
+                            <label for="devdesi">DESIGNATION:</label><br>
+                            <select name="designation" class="form-control" id="devdesi" required ><br>
+                                <option value="front">FRONT_END DEVELOPER</option>
+                                <option value="back">BACK_END DEVELOPER</option> 
+                                <option value="full">FULL STACK DEVELOPER</option>
+                                <option value="app">APP DEVELOPER</option>
+                                <option value="game">GAME DEVELOPER</option>
+                                <option value="graphics">GRAPHICS DEVELOPER</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <br><label for="devgit">GITHUB ACCOUNT:</label><br>
+                            <input type="text" class="form-control" name="githubacc" id="devgit" required><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="devlink">LINKDIN ACCOUNT</label><br>
+                            <input type="text" class="form-control"name="linkacc" id="devlink" required>
+                        </div>
+                            <button class="btn btn-primary" id="additem">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="viewsection">
+            <div class="container">
+                <div class="row" id="cardAttach">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card bg-dark" style="height: 270px;">
+                            <!-- <img src="add.png" class="card-img-top" alt="..." height="150px;"> -->
+                            <div class="card-body contains-addicon">
+                              <div class="addicon">
+                                  <i class="fa fa-plus fa-5x" style="color:rgb(7, 93, 206); text-align: center;"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>     
+           </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

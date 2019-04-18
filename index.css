@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+ 
+.formsection{
+    color: aliceblue;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.navstyle{
+    background-color: rgba(6, 142, 233, 0.856)
+}
+.card-element{
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+    margin: 10px;
+    color: aliceblue;
+}
+.formcontainer{ 
+    width: 60%;
+    padding: 30px;
+    padding-right: 60px;
+    box-shadow: 5px 5px 40px rgb(53, 50, 50);
+    
+}
+#show-hide{
+    display: none;
+}
+.contains-addicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.viewsection{
+    margin-top: 100px;
+}
